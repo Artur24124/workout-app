@@ -1,0 +1,27 @@
+@import '../../../styles/_variables';
+
+.button {
+	padding: 10px 45px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	font-size: $font-size-m;
+	color: $white;
+	background-color: $accentLight;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+
+	&:hover {
+		background-color: rgba($accent, 0.7);
+	}
+
+	&.main {
+		padding: 20px 50px;
+		font-size: $font-size-l;
+		background-color: $grey;
+
+		&:hover {
+			background-color: $accentLight;
+		}
+	}
+}

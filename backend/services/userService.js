@@ -25,9 +25,18 @@ export const getUserTotalLog = async (userId) => {
 
 	const totalMinutes = Math.ceil(totalExercisesTimesCompleted * 2.3);
 
-	return {
-		totalMinutes,
-		totalWorkouts,
-		totalWeight
-	};
+	return [
+		{
+			title: 'Minutes',
+			value: totalMinutes
+		},
+		{
+			title: 'Workouts',
+			value: totalWorkouts
+		},
+		{
+			title: 'Weight',
+			value: totalWeight
+		}
+	];
 };

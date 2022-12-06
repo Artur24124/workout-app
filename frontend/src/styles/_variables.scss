@@ -1,8 +1,10 @@
 /*Colors*/
 $accent: #b53471;
+$accentLight: rgba($accent, 0.4);
 $white: #f1e8e8;
 $dark-purple: #310c24;
 $black: #1a0612;
+$grey: rgba(255, 255, 255, 0.3);
 $purple: #511734;
 
 /*Shadows*/
@@ -12,3 +14,6 @@ $bx-10: 0 3px 6px rgba(0, 0, 0, 0.10);
 
 /*Fonts*/
 $default-font: 'Roboto';
+$font-size-m: 18px;
+$font-size-l: 24px;
+$font-size-xl: 36px;
