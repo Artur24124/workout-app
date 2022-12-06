@@ -1,0 +1,10 @@
+@import '../../../styles/_variables';
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 30px;
+	width: 500px;
+	height: 100%;
+}
